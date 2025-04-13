@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>판교 법률사무소 - 박덕희 변호사</title>
+    <link>https://pangyolaw.com</link>
+    <description>형사, 민사, 기업 법률 전문 상담을 제공합니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Sun, 13 Apr 2025 03:28:04 +0900</lastBuildDate>
+
+    <item>
+      <title>형사 사건 상담</title>
+      <link>https://pangyolaw.com/#contact</link>
+      <description>폭행, 사기, 성범죄 등 형사 사건 상담 안내</description>
+      <pubDate>Sun, 13 Apr 2025 03:28:04 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>민사 소송 안내</title>
+      <link>https://pangyolaw.com/#contact</link>
+      <description>손해배상, 계약 분쟁, 채권추심 등 민사소송 지원</description>
+      <pubDate>Sun, 13 Apr 2025 03:28:04 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>기업 법률 자문</title>
+      <link>https://pangyolaw.com/#contact</link>
+      <description>계약 검토, 분쟁 대응, 자산 보호 등 기업 법률 자문</description>
+      <pubDate>Sun, 13 Apr 2025 03:28:04 +0900</pubDate>
+    </item>
+  </channel>
+</rss>
