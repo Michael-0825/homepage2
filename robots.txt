@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pangyolaw.netlify.app/sitemap.xml

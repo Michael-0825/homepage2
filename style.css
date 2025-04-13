@@ -100,7 +100,7 @@ img {
   gap: 40px;
   align-items: flex-start;
   justify-content: center;
-  text-align: left;
+  text-align: center;
 }
 
 .intro-content img {
@@ -110,12 +110,20 @@ img {
 
 .bio {
   flex: 2 1 500px;
+  text-align: center;
+}
+
+.bio h3 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .bio ul {
-  margin-top: 10px;
-  padding-left: 20px;
-  list-style-type: disc;
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: left;
 }
 
 .services {
@@ -191,6 +199,10 @@ footer {
   }
 
   .bio {
+    text-align: center;
+  }
+
+  .bio ul {
     text-align: left;
   }
 
