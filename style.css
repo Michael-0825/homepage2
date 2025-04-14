@@ -1,5 +1,5 @@
 
-/* 전체 폰트 및 레이아웃 기본 설정 */
+/* 공통 설정 */
 body {
   font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
@@ -15,14 +15,19 @@ section {
   margin: 0 auto;
 }
 
-/* 헤더 영역 */
+/* 헤더 영역을 section처럼 감싸서 가운데 정렬되게 */
+.hero-wrapper {
+  background-color: #f7f7f7;
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 60px 20px;
-  background-color: #f7f7f7;
 }
 
 .hero-content {
