@@ -175,8 +175,22 @@ img {
 }
 
 footer {
+  padding: 20px 0;
   text-align: center;
-  padding: 20px;
+  color: #ccc;
+  font-size: 0.9rem;
+
+  /* ✅ 아래 줄 삭제 또는 주석 처리 */
+  /* background-color: #111; */
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+
+  /* ✅ 여기로 배경색 옮기기 */
   background-color: #111;
   color: #ccc;
   font-size: 0.9rem;
