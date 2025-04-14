@@ -1,48 +1,43 @@
 
-/* 전체 폰트 및 기본 설정 */
 body {
   font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff;
   color: #222;
+  background-color: #fff;
 }
 
-/* 섹션 기본 여백 */
 section {
   padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* 제목 스타일 */
 h2 {
   font-size: 2rem;
   margin-bottom: 24px;
 }
 
-/* 변호사 소개 섹션: 이미지와 텍스트 정렬 */
 .intro-content {
   display: flex;
   align-items: flex-start;
   gap: 40px;
 }
 
-/* 변호사 사진 */
 .intro-content img {
   max-width: 250px;
   height: auto;
   border-radius: 12px;
 }
 
-/* 학력/경력 텍스트 박스 */
 .bio {
   margin: 0;
   padding: 0;
 }
 
 .bio h3 {
-  margin-top: 0;
   font-size: 1.1rem;
-  color: #111;
+  margin-top: 0;
 }
 
 .bio ul {
@@ -50,12 +45,11 @@ h2 {
   margin: 10px 0 20px;
 }
 
-.bio ul li {
-  margin-bottom: 6px;
+.bio li {
   line-height: 1.6;
+  margin-bottom: 6px;
 }
 
-/* 반응형 대응 */
 @media (max-width: 768px) {
   .intro-content {
     flex-direction: column;
@@ -65,5 +59,9 @@ h2 {
 
   .bio {
     margin-top: 20px;
+  }
+
+  section {
+    padding: 40px 16px;
   }
 }
